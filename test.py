@@ -1,4 +1,6 @@
 from numba import njit, jit
 
-for i in range(100000):
-	i**2
+@njit
+def loop(trials):
+	for i in range(trials):
+		i**2
