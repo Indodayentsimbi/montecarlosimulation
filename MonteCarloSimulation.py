@@ -26,6 +26,5 @@ while diff > 0.0001:
 		  'number of needles used: ',num_needles)
 	num_needles += 5
 
-
-plt.hist(pi_estimates)
+plt.hist(pi_estimates,bins=100)
 plt.show()
